@@ -2,6 +2,7 @@ import express from 'express';
 import mongoose from 'mongoose';
 import dotenv from 'dotenv';    
 import cors from 'cors';
+import path from 'path';
 import productRoutes from "./routes/productRoutes.js";
 
 
@@ -10,6 +11,8 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
+// Serve uploaded images
+app.use("/images", express.static(path.join(process.cwd(), "images")));
 
 
 //  Routes

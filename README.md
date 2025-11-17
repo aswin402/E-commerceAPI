@@ -20,4 +20,6 @@ node index.js
 - mongoose: ^6.2.5 -[mongoose](https://mongoosejs.com/)
 - dotenv: ^16.0.3 -[dotenv](https://www.npmjs.com/package/dotenv)
 - nodemon: ^2.0.19 -[nodemon](https://www.npmjs.com/package/nodemon)
+- cors: ^2.8.5 -[cors](https://www.npmjs.com/package/cors)
+-multer: ^1.4.2 - [multer](https://www.npmjs.com/package/multer)
 
